@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>HTML Web Page</title>
+    <style>
+      p {
+        color: green;
+      }
+
+      #middle-p {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+      }
+
+      .menu {
+        border: 1px solid green;
+        padding: 1rem;
+        margin: 1rem;
+      }
+
+      .menu.full {
+        border: 2px dashed green;
+      }
+
+      .menu a {
+        font-size: 2.5rem;
+      }
+
+      .header-img {
+        margin: 1rem;
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is a basic web page</h1>
+    <img class="header-img" src="https://picsum.dev/300/200" />
+    <p>
+      Here is some text. You see and read the text on the webpage but you don't
+      see the tags that are surrounding it. Those tags are part of the code of
+      the page and are used by the web browser.
+    </p>
+    <p id="middle-p" attr="value" banana="something">
+      This is the second paragraph of text. Inline tags such as strong can make
+      text <strong>look bold</strong>. Visit my favorite
+      <a href="https://www.youtube.com">video site</a>.
+    </p>
+    <p class="menu">
+      Would you like to read a <a href="message.html">message</a>?
+    </p>
+    <p class="menu secondary full above-fold">
+      Would you like to read the <a href="forecast.html">forecast</a>?
+    </p>
+  </body>
+</html>
