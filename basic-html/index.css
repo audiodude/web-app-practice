@@ -1,0 +1,29 @@
+p {
+  color: green;
+}
+
+#middle-p {
+  color: orange;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.menu {
+  border: 1px solid green;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.menu.full.third {
+  border: 2px dashed green;
+}
+
+.menu a {
+  font-size: 2.5rem;
+}
+
+.header-img {
+  margin: 1rem;
+  width: 100px;
+  height: 100px;
+}
